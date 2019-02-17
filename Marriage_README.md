@@ -1,6 +1,6 @@
-#### Objective: Clean card transactions data to identify and segment customers through spending patterns and use them for promotions, customers retention and cross-sell programs.  
+Objective: Clean card transactions data to identify and segment customers through spending patterns and use them for promotions, customers retention and cross-sell programs.  
 
-Introduction: This program will help in identifying customers/ couples who married recently or getting married in near future.
+### Introduction: This program will help in identifying customers/ couples who married recently or getting married in near future.
 
 Approach:
 	The program group customers into three categories based on keywords and merchant type 1. large transactions (hotels, jewelry, catering, florists) 2. bridal stores and 3. photography only if the posted amount cross a minimum threshold for each keyword. Creates a pivot table and assigns probability against all shortlisted customers based on the number of categories satisfied. 
