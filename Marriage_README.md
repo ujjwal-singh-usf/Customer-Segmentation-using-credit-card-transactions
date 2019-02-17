@@ -1,4 +1,4 @@
-# Objective: Clean card transactions data to identify and segment customers through spending patterns and use them for promotions, customers retention and cross-sell programs.  
+#### Objective: Clean card transactions data to identify and segment customers through spending patterns and use them for promotions, customers retention and cross-sell programs.  
 
 Introduction: This program will help in identifying customers/ couples who married recently or getting married in near future.
 
