@@ -15,6 +15,7 @@ Required Input Data:
 2.	Wedding Keywords file (Wedding_Keywords.xls file)
 
 Brief Description of the Program Logic:
+
 •	The Program reads the input card transaction data in chunks to read large amount of data.
 •	Grouped the data into three categories based on keywords, merchant type and post amount and assign a probability score for each.
 •	The customers are flagged for Large Transactions by parsing a list of keywords for hotels, jewelry, florists and catering against the clean merchant category.
@@ -30,3 +31,4 @@ Brief Description of the Program Logic:
 •	If customer is present in all the three Groups 1, 2 and 3 -> change the Probability as ‘Very_High’
 •	If there are no matches -> the probability remains unchanged.
 •	The scored dictionary is converted into a table with customer key, card_acceptor_name, category, probability and all the unscored customers are eliminated.
+
